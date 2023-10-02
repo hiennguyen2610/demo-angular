@@ -14,6 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/angular-shopping-card",
+            "baseHref": "/demo-angular/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
